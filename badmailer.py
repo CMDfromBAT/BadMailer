@@ -1,6 +1,8 @@
+#CODED BY CMD
 import smtplib
 import time
 
+#Func for sending email PLEASE DONT CHANGE THE EMAIL PASSWORD! I`LL BECANE UR IP AND DDoS U!
 def sendgoogle(message, target):
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
@@ -10,7 +12,7 @@ def sendgoogle(message, target):
     print("Email sent!")
     smtpObj.quit()
 
-
+#FUNC FOR THE EMAIL CONTENT
 def mechanism():
     print(" ______      ___     ______                           ")
     print("|      \   /     \  | _____\                          ")

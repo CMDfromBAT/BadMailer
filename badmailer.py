@@ -2,7 +2,7 @@
 import smtplib
 import time
 
-#Func for sending email PLEASE DONT CHANGE THE EMAIL PASSWORD! I`LL BECANE UR IP AND DDoS U!
+#Func for sending email PLEASE DONT CHANGE THE EMAIL PASSWORD! I`LL BECAME UR IP AND DDoS U!
 def sendgoogle(message, target):
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()

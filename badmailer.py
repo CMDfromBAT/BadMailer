@@ -52,7 +52,7 @@ print("| CMD   | | |   | | | _____ |                                            
 print("|_______| |_|   |_| |______/                                                          ")
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<                        ")
 
-print("This is BADMAIL by CMD. With this tool you can sendphishing E-Mails\nfrom safetyserviceofgogle@gmail.com")
+print("This is BADMAIL by CMD. With this tool you can send phishing E-Mails\nfrom safetyserviceofgogle@gmail.com")
 print("WARNING! USE FOR EDUCATIONAL PURPOSE ONLY!DEVELOPER IS NOT RESPONSIBLE!")
 print("RUN AT YOUR OWN RISK!")
 safe = input("Are you informed about all risks? [y]/[n]: ")

@@ -32,6 +32,7 @@ def mechanism():
             print (message)
             message += input("Next line of the message: ")
         else:
+            print(message)
             sure = input("Is this the message you want to send? y/n: ")
             if sure == "y":
                 sendgoogle(message, target)

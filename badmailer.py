@@ -11,13 +11,14 @@ def sendgoogle(message, target):
     smtpObj.sendmail('safetyserviceofgogle@gmail.com',target,message)
     print("Email sent!")
     smtpObj.quit()
+    mechanism()
 
 #FUNC FOR THE EMAIL CONTENT
 def mechanism():
     print(" ______      ___     ______                           ")
     print("|      \   /     \  | _____\                          ")
     print("| By    | |       | |       |    _  _    _    _  _    ____   ___ ")
-    print("|       | | v.1.0 | |       |   | \/ |  / \   |  |   |___ | | __|         ")
+    print("|       | | v.1.1 | |       |   | \/ |  / \   |  |   |___ | | __|         ")
     print("|      /  |  ___  | |       |   |    | /___\  |  |   |      |\                " )
     print("|      \  | |   | | |       |   |    |/     \ |  |__||____| | \                       ")
     print("| CMD   | | |   | | | _____ |                                                       ")
@@ -37,14 +38,14 @@ def mechanism():
             if sure == "y":
                 sendgoogle(message, target)
             else:
-                print("False input! Please start the program one time more")
+                mechanism()
 
 
 
 print(" ______      ___     ______                           ")
 print("|      \   /     \  | _____\                          ")
 print("| By    | |       | |       |    _  _    _    _  _    ____   ___ ")
-print("|       | | v.1.0 | |       |   | \/ |  / \   |  |   |___ | | __|         ")
+print("|       | | v.1.1 | |       |   | \/ |  / \   |  |   |___ | | __|         ")
 print("|      /  |  ___  | |       |   |    | /___\  |  |   |      |\                " )
 print("|      \  | |   | | |       |   |    |/     \ |  |__||____| | \                       ")
 print("| CMD   | | |   | | | _____ |                                                       ")

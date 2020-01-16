@@ -6,7 +6,7 @@ import time
 def sendgoogle(message, target):
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
-    smtpObj.login('safetyserviceofgogle@gmail.com','dontchangeplease')
+    smtpObj.login('safetyserviceofgogle@gmail.com','pleasedontchange')
     print("Login succesfull");time.sleep(3)
     smtpObj.sendmail('safetyserviceofgogle@gmail.com',target,message)
     print("Email sent!")
